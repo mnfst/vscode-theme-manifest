@@ -45,7 +45,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "fontStyle": ""
+        "foreground": "#f280d0"
       }
     },
     {
@@ -68,7 +68,7 @@
       "scope": "storage.type",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#9966b8"
+        "foreground": "#7209b7"
       }
     },
     {
@@ -124,7 +124,7 @@
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#9966b8"
+        "foreground": "#7209b7"
       }
     },
     {
@@ -132,7 +132,7 @@
       "scope": "support.constant",
       "settings": {
         "fontStyle": "",
-        "foreground": "#9966b8"
+        "foreground": "#7209b7"
       }
     },
     {
@@ -172,8 +172,8 @@
     "editor.background": "#161617",
     "editorCursor.foreground": "#ddbb88",
     "editor.foreground": "#6688cc",
-    "editorWhitespace.foreground": "#002040",
-    "editor.lineHighlightBackground": "#082050",
+    "editorWhitespace.foreground": "#161617",
+    "editor.lineHighlightBackground": "#161617",
     "editor.selectionBackground": "#770811"
   },
   "name": "Manifest"
