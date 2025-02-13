@@ -1,8 +1,25 @@
 {
   "name": "vscode-theme-manifest",
-  "displayName": "vscode-theme-manifest",
-  "description": "Manifest theme for VS Code",
-  "version": "0.0.1",
+  "displayName": "Manifest Theme",
+  "description": "Manifest Dark Theme for Visual Studio Code",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "mnfst",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnfst/vscode-theme-manifest"
+  },
+  "icon": "images/manifest-icon.png",
+  "galleryBanner": {
+    "color": "#1c1c24",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Manifest",
+    "Focus"
+  ],
   "engines": {
     "vscode": "^1.96.0"
   },

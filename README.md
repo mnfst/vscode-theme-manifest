@@ -1,16 +1,47 @@
-# vscode-theme-manifest README
+<br>
+<p align="center">
+  <a href="https://manifest.build/#gh-light-mode-only">
+    <img alt="manifest" src="https://manifest.build/assets/images/logo-transparent.svg" height="55px" alt="Manifest logo" title="Manifest - A backend so simple that it fits in a YAML file" />
+  </a>
+</p>
+<p align='center'>
+<strong>Manifest Dark Theme for VS Code</strong>
+<br><br>
+<a href="https://github.com/mnfst/manifest/blob/develop/LICENSE" target="_blank"><img alt="License MIT" src="https://img.shields.io/badge/licence-MIT-green"></a>
+<br>
 
-## Working with Markdown
+</p>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Description
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+A deep, dark and elegant theme for VS Code inspired by [Manifest](https://manifest.build) color palette.
 
-## For more information
+## Preview
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+**YAML**
 
-**Enjoy!**
+![YAML Screenshot - Manifest](./images/yaml-preview-screenshot.png)
+
+**HTML**
+
+![HTML Screenshot - Manifest](./images/html-preview-screenshot.png)
+
+**REACT**
+
+![React Screenshot - Manifest](./images/react-preview-screenshot.png)
+
+**TypeScript**
+
+![TypeScript Screenshot - Manifest](./images/ts-preview-screenshot.png)
+
+**Python**
+
+![Python Screenshot - Manifest](./images/python-preview-screenshot.png)
+
+**SCSS**
+
+![SCSS Screenshot - Manifest](./images/scss-preview-screenshot.png)
+
+## Contribute
+
+If you want to contribute to this repository, please open an issue and create a pull request.

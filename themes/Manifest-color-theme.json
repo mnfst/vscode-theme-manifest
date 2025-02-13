@@ -173,23 +173,23 @@
     }
   ],
   "colors": {
-    "editor.background": "#03062b",
+    "editor.background": "#1c1c24",
     "editorCursor.foreground": "#ddbb88",
     "editor.foreground": "#f2c79c",
-    "editorWhitespace.foreground": "#03062b",
-    "editor.lineHighlightBackground": "#03062b",
-    "editor.selectionBackground": "#03062b",
-    "sideBar.background": "#03062b",
+    "editorWhitespace.foreground": "#1c1c24",
+    "editor.lineHighlightBackground": "#1c1c24",
+    "editor.selectionBackground": "#2430f0",
+    "sideBar.background": "#1c1c24",
     "sideBar.foreground": "#ffffff",
     "editorLineNumber.foreground": "#6688cc", // Default line numbers color
     "editorLineNumber.activeForeground": "#d8ddfc", // Color of the active line number
 
-    "sideBar.border": "#03062b", // Border color around the sidebar
+    "sideBar.border": "#1c1c24", // Border color around the sidebar
     "sideBarSectionHeader.border": "#b2413f", // Border under section headers in the sidebar
 
     // Terminal Borders
-    "terminal.border": "#03062b", // Border color around the terminal
-    "panel.border": "#03062b" // Border separating terminal from editor area
+    "terminal.border": "#1c1c24", // Border color around the terminal
+    "panel.border": "#1c1c24" // Border separating terminal from editor area
   },
   "name": "Manifest"
 }
