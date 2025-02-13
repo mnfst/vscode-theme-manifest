@@ -2,7 +2,7 @@
   "name": "vscode-theme-manifest",
   "displayName": "Manifest Theme",
   "description": "Manifest Dark Theme for Visual Studio Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "publisher": "manifest-build",
   "repository": {
