@@ -1,7 +1,7 @@
 <br>
 <p align="center">
-  <a href="https://manifest.build/#gh-light-mode-only">
-    <img alt="manifest" src="https://manifest.build/assets/images/logo-transparent.svg" height="55px" alt="Manifest logo" title="Manifest - A backend so simple that it fits in a YAML file" />
+  <a href="https://manifest.build">
+    <img alt="manifest" src="./images/logotype-white.png" height="55px" alt="Manifest logo" title="Manifest - A backend so simple that it fits in a YAML file" />
   </a>
 </p>
 <p align='center'>

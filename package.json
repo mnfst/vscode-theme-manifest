@@ -4,7 +4,7 @@
   "description": "Manifest Dark Theme for Visual Studio Code",
   "version": "1.0.0",
   "license": "MIT",
-  "publisher": "mnfst",
+  "publisher": "manifest-build",
   "repository": {
     "type": "git",
     "url": "https://github.com/mnfst/vscode-theme-manifest"
