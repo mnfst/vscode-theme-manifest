@@ -2,29 +2,28 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#000c18",
-        "foreground": "#6688cc"
+        "foreground": "#1c9c82"
       }
     },
     {
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#7e7e7e"
+        "foreground": "#6688cc"
       }
     },
     {
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#38D6AE"
+        "foreground": "#f7d7bc"
       }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#f280d0"
+        "foreground": "#ff9e9c"
       }
     },
     {
@@ -45,7 +44,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#f280d0"
+        "foreground": "#a8efe0"
       }
     },
     {
@@ -67,16 +66,15 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#7209b7"
+        "foreground": "#f280d0"
       }
     },
     {
       "name": "Class name",
-      "scope": "entity.name.class",
+      "scope": ["entity.name.type.class", "support.class", "entity.name.class"],
       "settings": {
-        "fontStyle": "underline",
-        "foreground": "#ffeebb"
+        "fontStyle": "bold",
+        "foreground": "#82F0DD"
       }
     },
     {
@@ -92,7 +90,7 @@
       "scope": "entity.name.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#2735EC"
+        "foreground": "#2be1b7"
       }
     },
     {
@@ -100,7 +98,14 @@
       "scope": "variable.parameter",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#2277ff"
+        "foreground": "#ffdedd"
+      }
+    },
+    {
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#fce6f3",
+        "fontStyle": "italic"
       }
     },
     {
@@ -108,7 +113,7 @@
       "scope": "entity.name.tag",
       "settings": {
         "fontStyle": "",
-        "foreground": "#2735EC"
+        "foreground": "#2be1b7"
       }
     },
     {
@@ -124,7 +129,7 @@
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#7209b7"
+        "foreground": "#2be1b7"
       }
     },
     {
@@ -132,7 +137,7 @@
       "scope": "support.constant",
       "settings": {
         "fontStyle": "",
-        "foreground": "#7209b7"
+        "foreground": "#e12bb0"
       }
     },
     {
@@ -140,7 +145,7 @@
       "scope": ["support.type", "support.class"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#9966b8"
+        "foreground": "#a8efe0"
       }
     },
     {
@@ -154,7 +159,6 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#F92672",
         "fontStyle": "",
         "foreground": "#F8F8F0"
       }
@@ -163,18 +167,29 @@
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#AE81FF",
+        "fontStyle": "strikethrough",
         "foreground": "#F8F8F0"
       }
     }
   ],
   "colors": {
-    "editor.background": "#161617",
+    "editor.background": "#03062b",
     "editorCursor.foreground": "#ddbb88",
-    "editor.foreground": "#6688cc",
-    "editorWhitespace.foreground": "#161617",
-    "editor.lineHighlightBackground": "#161617",
-    "editor.selectionBackground": "#770811"
+    "editor.foreground": "#f2c79c",
+    "editorWhitespace.foreground": "#03062b",
+    "editor.lineHighlightBackground": "#03062b",
+    "editor.selectionBackground": "#03062b",
+    "sideBar.background": "#03062b",
+    "sideBar.foreground": "#ffffff",
+    "editorLineNumber.foreground": "#6688cc", // Default line numbers color
+    "editorLineNumber.activeForeground": "#d8ddfc", // Color of the active line number
+
+    "sideBar.border": "#03062b", // Border color around the sidebar
+    "sideBarSectionHeader.border": "#b2413f", // Border under section headers in the sidebar
+
+    // Terminal Borders
+    "terminal.border": "#03062b", // Border color around the terminal
+    "panel.border": "#03062b" // Border separating terminal from editor area
   },
   "name": "Manifest"
 }
